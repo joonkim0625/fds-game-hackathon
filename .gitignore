@@ -1,3 +1,6 @@
+# vs코드 폴더를 무시하는
+.vscode/
+
 # Parcel
 .cache/
 dist/
