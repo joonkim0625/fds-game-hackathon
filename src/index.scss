@@ -3,3 +3,30 @@ $main-color: skyblue;
 body {
   background-color: $main-color;
 }
+
+.row {
+  display: flex;
+  // 혹은 float: left;
+}
+
+.col {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.col.checked {
+  background-color: black;
+}
+
+.reset {
+  display: none;
+}
+
+.reset.show {
+  display: inline-block;
+}
+
+// 위 두개를 합치면
+// .reset:not(.show) {display: none;}
